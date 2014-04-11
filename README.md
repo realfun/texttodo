@@ -3,7 +3,7 @@ texttodo
 
 Plain Text TODO list. Currently support VIM scheme.
 
-   ![alt tag](https://raw.github.com/realfun/renzf/master/screenshots/macvim.png)
+   ![alt tag](https://github.com/realfun/texttodo/blob/master/screenshots/macvim.png?raw=true)
 
 Todo Format:
 
