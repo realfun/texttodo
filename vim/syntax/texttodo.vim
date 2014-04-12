@@ -62,22 +62,22 @@ hi link    TxtSpecial     Constant
 hi link    TxtNumber      Number
 hi link    TxtString      String
 
-hi TxtUrl  gui=underline,italic
+hi TxtUrl         gui=underline,italic                term=underline,italic
 
-hi ztxt1   guifg=red      guibg=red
-hi ztxt2   guifg=Orange   guibg=Orange
-hi ztxt3   guifg=green    guibg=green
-hi ztxt4   guifg=Gray     guibg=Gray
+hi ztxt1          guifg=Red         guibg=Red         ctermfg=Red         ctermbg=Red
+hi ztxt2          guifg=Orange      guibg=Orange      ctermfg=Yellow      ctermbg=Yellow
+hi ztxt3          guifg=Green       guibg=Green       ctermfg=Green       ctermbg=Green
+hi ztxt4          guifg=Gray        guibg=Gray        ctermfg=Gray        ctermbg=Gray
 
-hi checked guifg=gray
-hi recheck guifg=darkgreen
-hi uncheck guifg=green
+hi checked        guifg=Gray                          ctermfg=Gray
+hi recheck        guifg=Darkgreen                     ctermfg=DarkGreen
+hi uncheck        guifg=Green                         ctermfg=Green
 
-hi TxtNumBullet   guifg=lightgreen
-hi TxtSymBullet   guifg=lightblue
-hi TxtTitle1       guifg=black guibg=white
-hi TxtTitle2       guifg=black guibg=lightgray
-hi TxtTitle3       guifg=white guibg=#555555
+hi TxtNumBullet   guifg=LightGreen                    ctermfg=LightGreen
+hi TxtSymBullet   guifg=LightBlue                     ctermfg=LightBlue
+hi TxtTitle1      guifg=Black       guibg=White       ctermfg=Black       ctermbg=White
+hi TxtTitle2      guifg=Black       guibg=LightGray   ctermfg=Black       ctermbg=LightGray
+hi TxtTitle3      guifg=White       guibg=#555555     ctermfg=White       ctermbg=Gray
 
 hi link    TxtLComment    Comment
 hi link    TxtBComment    Comment
